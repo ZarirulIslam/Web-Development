@@ -1,0 +1,17 @@
+div.t{
+    text-align: center;
+}
+div.o{
+    background-color: lightgreen;
+    padding: 16px;
+}
+span{
+    padding: 8px;
+}
+h3{
+    padding-left: 24px;
+}
+img.p{
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1>Signup</h1>
+    <form action="" method="GET">
+        <p>Full name:</p>
+        <input class="g" type="text" name="fullname"> <br>
+        <p>Email:</p>
+        <input class="g" type="email" name="email"> <br>
+        <p>Password:</p>
+        <input class="g" type="password" name="password"> <br>
+        <p>Confirm Password: </p>
+        <input class="g" type="password" name="confirmpassword"> <br> <br>
+        Gender: <br>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        Male
+        <input type="radio" name="Gender" id="Female" value="Female">
+        Female
+        <input type="radio" name="Gender" id="Others" value="Others">
+        Others
+        <br>
+        <br>
+        <p>Security Question:</p>
+        <select name="security" id="Security">
+            <option value="first-pet">What was the name of your first pet?</option>
+            <option value="nick-name">What was the name of your first job?</option>
+        </select>
+        <br>
+        <textarea name="answer" id="" cols="31.5" rows="5"></textarea>
+        <br>
+        <input class="c" type="checkbox" name="agree" id="agree" value="accept">
+        I agree to accept the terms and condition
+        <br>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

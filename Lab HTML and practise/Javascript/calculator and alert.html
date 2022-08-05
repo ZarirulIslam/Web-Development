@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <form>
+            <label for="">Enter First Number: </label>
+            <input type="text" name="n1" id="n1" placeholder="Enter First Number"> <br><br>
+            <label for="">Enter Second Number: </label>
+            <input type="text" name="n2" id="n2" placeholder="Enter Second Number"> <br><br>
+            <input type="submit" value="Add" onclick="add()">
+            <input type="submit" value="Sub" onclick="sub()">
+            <input type="submit" value="Mul" onclick="mul()">
+            <input type="submit" value="Div" onclick="div()">
+        </form>
+        <script type="text/javascript">
+            function add(){
+                var a = parseInt(document.getElementById("n1").value);
+                var b = parseInt(document.getElementById("n2").value);
+                alert("The Sum is: "+(a+b));
+            }
+            function sub(){
+                var a = parseInt(document.getElementById("n1").value);
+                var b = parseInt(document.getElementById("n2").value);
+                alert("The Subtraction is: "+(a-b));
+            }
+            function mul(){
+                var a = parseInt(document.getElementById("n1").value);
+                var b = parseInt(document.getElementById("n2").value);
+                alert("The Multiplication is: "+(a*b));
+            }
+            function div(){
+                var a = parseInt(document.getElementById("n1").value);
+                var b = parseInt(document.getElementById("n2").value);
+                alert("The Division is: "+(a/b));
+            }
+        </script>
+    </body>
+</html>

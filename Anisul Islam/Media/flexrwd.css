@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    padding: 10px;
+    flex: 25%;
+    max-width: 25%;
+}
+@media screen and (max-width:1024px) {
+    .div1 {
+        flex: 50%;
+        max-width: 50%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:667px) {
+    .div1 {
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+/* @media screen and (max-width:667px) {
+    .main {
+        flex-direction: column;
+        padding: 10px;
+    }
+} */

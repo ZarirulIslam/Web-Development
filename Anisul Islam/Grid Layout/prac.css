@@ -1,0 +1,44 @@
+body{
+    font-size: 35px;
+}
+.item1{
+    grid-area: Home;
+}
+.item2{
+    grid-area: Main;
+}
+.item3 {
+    grid-area: Menu;
+}
+.item4 {
+    grid-area: Aside;
+}
+.item5 {
+    grid-area: Footer;
+}
+.cont{
+    display: grid;
+    grid-template-areas:
+    'Home Home Home Home Home'
+    'Main Menu Menu Aside Aside'
+    'Footer Footer Footer Footer Footer'
+    ;
+    text-align: center;
+    background-color: aqua;
+     border: 1px solid black;
+}
+.cont > div{
+     border: 1px solid black;
+}
+
+.cont1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.cont1 > div{
+    border: 1px solid black;
+    padding: 5px;
+}

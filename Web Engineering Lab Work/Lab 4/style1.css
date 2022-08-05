@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 700px;
+    height: 600px;
+    margin: 0px auto;
+    background-color: aqua;
+}
+.head{
+    width: 700px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.head-left{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: cadetblue;
+}
+.head-left-top{
+    width: 500px;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+.head-left-top-left{
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-color: cyan;
+
+}
+.head-left-top-left-left{
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: darkgoldenrod;
+
+}
+.head-left-top-left-left-top{
+    width: 150px;
+    height: 200px;
+    background-color: darkkhaki;
+
+}
+.head-left-top-left-left-bottom{
+    width: 150px;
+    height: 200px;
+    background-color: darkgreen;
+}
+.head-left-top-left-right{
+    width: 150px;
+    height: 400px;
+    float: right;
+    background-color: darkcyan;
+}
+.head-left-top-right{
+    width: 200px;
+    height: 400px;
+    float: right;
+    background-color: crimson;
+}
+
+.head-left-bottom{
+    width: 500px;
+    height: 100px;
+    background-color: coral;
+}
+
+.head-right{
+    width: 200px;
+    height: 500px;
+    float: right;
+    background-color: blueviolet;
+}
+
+.head-right-top{
+    width: 200px;
+    height: 160px;
+    background-color: brown;
+}
+.head-right-mid{
+    width: 200px;
+    height: 180px;
+    background-color: chartreuse;
+}
+
+.head-right-bottom{
+    width: 200px;
+    height: 160px;
+    background-color: chocolate;
+}
+
+.foot{
+    width: 700px;
+    height: 100px;
+}
+
+.left-foot{
+    background-color: darkblue;
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.right-foot{
+    background-color: darkcyan;
+    float: right;
+    width: 500px;
+    height: 100px;
+}

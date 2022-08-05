@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 1300px;
+    height: 600px;
+    background-color: aqua;
+    margin: 0px auto;
+}
+.l{
+    float: left;
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+}
+.ll{
+    float: left;
+    width: 400px;
+    height: 600px;
+}
+.llt{
+    width: 400px;
+    height: 280px;
+    background-color: aqua;
+}
+.lltt{
+    width: 400px;
+    height: 70px;
+    background-color: chartreuse;
+}
+.lltm1{
+    width: 400px;
+    height: 70px;
+    background-color: cadetblue;
+}
+.lltm2{
+    width: 400px;
+    height: 70px;
+    background-color: chocolate;
+}
+.lltb{
+    width: 400px;
+    height: 70px;
+    background-color: coral;
+}
+.llb{
+    width: 400px;
+    height: 320px;
+    background-color: blueviolet;
+}
+.llbl{
+    float: left;
+    width: 100px;
+    height: 320px;
+    background-color: cornflowerblue;
+}
+.llbl1{
+    float: left;
+    width: 100px;
+    height: 320px;
+    background-color: crimson;
+}
+.llbl2{
+    float: left;
+    width: 100px;
+    height: 320px;
+    background-color: cyan;
+}
+.llbr{
+    float: right;
+    width: 100px;
+    height: 320px;
+    background-color: brown;
+}
+.lr{
+    float: right;
+    width: 400px;
+    height: 600px;
+}
+.lrt1{
+    width: 400px;
+    height: 140px;
+    background-color: aqua;
+}
+.lrt1l1{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: brown;
+}
+.lrt1l2{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: cadetblue;
+}
+.lrt1l3{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: coral;
+}
+.lrt1r{
+    float: right;
+    width: 100px;
+    height: 140px;
+    background-color: blueviolet;
+}
+.lrt2{
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+.lrt2l1{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkblue;
+}
+.lrt2l2{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkcyan;
+}
+.lrt2l3{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkgoldenrod;
+}
+.lrt2r{
+    float: right;
+    width: 100px;
+    height: 80px;
+    background-color: darkgray;
+}
+.lrt3{
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+.lrt3l1{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.lrt3l2{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: chartreuse;
+}
+.lrt3l3{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: chocolate;
+}
+.lrt3r{
+    float: right;
+    width: 100px;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+.lrt4{
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+.lrt4l1{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkblue;
+}
+.lrt4l2{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkcyan;
+}
+.lrt4l3{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: darkgoldenrod;
+}
+.lrt4r{
+    float: right;
+    width: 100px;
+    height: 80px;
+    background-color: darkgray;
+}
+.lrt5{
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+.lrt5l1{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.lrt5l2{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: chartreuse;
+}
+.lrt5l3{
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: chocolate;
+}
+.lrt5r{
+    float: right;
+    width: 100px;
+    height: 80px;
+    background-color: coral;
+}
+.lrb{
+    width: 400px;
+    height: 140px;
+    background-color: aqua;
+}
+.lrbl1{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: darkblue;
+}
+.lrbl2{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: darkcyan;
+}
+.lrbl3{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: darkgoldenrod;
+}
+.lrbr{
+    float: right;
+    width: 100px;
+    height: 140px;
+    background-color: darkgreen;
+}
+.r{
+    float: right;
+    width: 500px;
+    height: 600px;
+}
+.rl{
+    float: left;
+    width: 150px;
+    height: 600px;
+}
+.rlt{
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+}
+.rlm{
+    width: 150px;
+    height: 300px;
+    background-color: darkkhaki;
+}
+.rlb{
+    width: 150px;
+    height: 150px;
+    background-color: darkmagenta;
+}
+.rm{
+    float: left;
+    width: 200px;
+    height: 600px;
+}
+.rmt{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+.rmb{
+    width: 200px;
+    height: 300px;
+    background-color: blueviolet;
+}
+.rr{
+    float: right;
+    width: 150px;
+    height: 600px;
+}
+.rrt1{
+    width: 150px;
+    height: 45px;
+    background-color: darkblue;
+}
+.rrt2{
+    width: 150px;
+    height: 85px;
+    background-color: darkcyan;
+}
+.rrt3{
+    width: 150px;
+    height: 85px;
+    background-color: darkgoldenrod;
+}
+.rrt4{
+    width: 150px;
+    height: 85px;
+    background-color: darkgreen;
+}
+.rrt5{
+    width: 150px;
+    height: 85px;
+    background-color: darkkhaki;
+}
+.rrt6{
+    width: 150px;
+    height: 85px;
+    background-color: darkmagenta;
+}
+.rrt7{
+    width: 150px;
+    height: 85px;
+    background-color: darkolivegreen;
+}
+.rrt8{
+    width: 150px;
+    height: 45px;
+    background-color: darkblue;
+}

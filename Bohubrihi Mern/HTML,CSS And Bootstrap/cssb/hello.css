@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-menu{
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+}
+.nav-menu ul li {
+    list-style-type: none;
+    float: right; 
+    margin: 20px;
+}
+.nav-menu ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+      text-align: center;
+}
+.nav-menu ul li a:hover{
+    animation: forwards;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+  background-color: aqua;  
+}
+tr:nth-child(odd){
+    background-color: cadetblue;
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:hover{
+    background-color: yellow;
+}
+ul{
+    list-style-type: circle;
+}
+ .gradient {
+     width: 100%;
+     height: 500px;
+     background-image: linear-gradient(to right, #E52C7C, #85328A, #66348F, #66348F);
+ }
+
+ .opacity{
+     opacity: 0.5;
+     margin-top: 20px;
+ }
+ .opacity:hover{
+     opacity: 1;
+ }
+
+ .overflow{
+     height: 200px;
+     width: 250px;
+     background-color: darkgray;
+     overflow: auto;
+     margin-bottom: 20px;
+ }
+
+ .tooltip-text{
+     visibility: hidden;
+     background-color: darkorchid;
+     width: 200px;
+     color: white;
+     padding: 15px;
+     border-radius: 5px;
+     position: absolute;
+     margin-top: 20px;
+ }
+
+ .tooltip{
+     position: relative;
+ }
+
+ .tooltip:hover .tooltip-text{
+     visibility: visible;
+ }
+
+ .style{
+     margin-bottom: 20px;
+ }
+
+ input{
+     width: 100%;
+     margin: 20px 0px;
+     padding: 10px;
+     border-color: aqua;
+     border-radius: 5px;
+     box-sizing: border-box;
+ }
+
+ #search{
+     padding: 10px;
+     background-color: cadetblue;
+     width: 200px;
+     height: 50px;
+     background-image: url("../../images/search1.png");
+     background-repeat: no-repeat;
+     background-position: left 8px;
+ }
+
+ #search:focus{
+     background-color: crimson;
+     width: 100%;
+     transition: width 0.5s ease-in-out;
+ }
+.box3{
+    background-color: #85328A;
+}
+ .box1{
+     background-color: aqua;
+     width: 250px;
+     height: 250px;
+     float: left;
+     margin: 10px 10px 20px 10px;
+     border: 5px solid black;
+ }
+ .box2{
+     background-color: aqua;
+     width: 250px;
+     height: 250px;
+     float: left;
+     margin: 10px 0px 20px 10px;
+     border: 5px solid black;
+ }
+
+ .box3::after{
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+ #message{
+     resize: none;
+ }
+.lis li{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url("../../images/check.png");
+}
+.bton{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.btn{
+    display: block;
+    width: 170px;
+    margin: auto;
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn:link{
+    background-color: black;
+    color: white;
+}
+.btn:visited{
+    background-color: #E52C7C;
+    color: white;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.btn:checked{
+    background-color: #85328A;
+    color: white;
+}
+.im{
+    background-color: #66348F;
+}
+.im{
+    text-align: center;
+}
+.im1 {
+    background-color: aqua;
+    /* width: 250px;
+    height: 250px; */
+    text-align: center;
+    float: left;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+im1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.im2 {
+    background-color: aqua;
+    /* width: 250px;
+    height: 250px; */
+    text-align: center;
+    float: left;
+    margin: 10px 0px 20px 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+body{
+    background-image: url("../../download.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

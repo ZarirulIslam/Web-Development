@@ -1,0 +1,13 @@
+.div1 img{
+    width: 296px;
+    height: 296px;
+    position: absolute;
+    z-index: 1;
+}
+.div2 img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 190px;
+    left: 130px;
+}

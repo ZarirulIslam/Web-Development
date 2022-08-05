@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aliceblue;
+}
+p{
+    color: red;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+abbr{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    background-color: cadetblue;
+}
+address{
+    color: blue;
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}

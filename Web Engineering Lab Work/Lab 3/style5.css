@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 1000px;
+    margin: 0px auto;
+}
+.banner img{
+    width: 1000px;
+    height: 400px;
+}
+.menu{
+    background-color: aqua;
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    display: block;
+}
+.menu ul li{
+    float: left;
+    padding: 15px;
+}
+.menu ul li:hover{
+    background-color: brown;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    background-color: aquamarine;
+    padding: 15px;
+}
+.content h1{
+    text-align: center;
+}
+.content p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 15px 0px;
+}
+.footer{
+    background-color: brown;
+}
+.footer p{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}

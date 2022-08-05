@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    color: solid black;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e4f9e4;
+    padding: 20px;
+}
+.image{
+    border-radius: 300px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 20px;
+}
+.name{
+    float: left;
+    padding: 40px;
+    padding-left: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.address{
+    float: right;
+    padding: 40px;
+}
+.address a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.address a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    max-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.personal-in{
+    padding: 20px auto;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: right;
+    width: 70%;
+}
+.hr{
+    border: 2px solid gray;
+    max-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.experince-in{
+    padding: 20px auto;
+}
+.education-in{
+    padding: 20px auto;
+}
+.edu-left-div{
+    float: left;
+    width: 40%;
+}
+.edu-right-div{
+    float: right;
+    width: 30%;
+}
+.honor-in{
+    padding: 20px auto;
+}
+.ref-in{
+    padding: 20px auto;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    padding-top: 10px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.footer-link{
+    color: white;
+    margin: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
